@@ -23,8 +23,9 @@ else:
             palabra = input()
             eliminar += [palabra]
         print("La lista de palabras a eliminar es:", eliminar)
-
-        for x in eliminar: 
-            while y in eliminar
-            lista.remove(x)
+        
+        for i in eliminar:
+            while x in lista
+             lista.remove(x)
+        print("La lista es ahora:", lista)
 
