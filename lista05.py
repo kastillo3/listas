@@ -14,7 +14,7 @@ else:
     inversa = []
     for i in lista:
         inversa = [i] + inversa
-    print("La lista inversa es:", inversa)coding: utf-8
+    print("La lista inversa es:", inversa)
 npalabra= int(input("cuántas palabras tiene la lista: "))
 
 if numero < 1:
@@ -39,8 +39,7 @@ else:
             eliminar += [palabra]
         print("La lista de palabras a eliminar es:", eliminar)
 
-        for i in eliminar:
-            for o in range(len(lista)-1, -1, -1):
-                if lista[o] == i:
-                    del(lista[o])
-        print("La lista es:", lista)
+        for x in eliminar: 
+            while y in eliminar
+            lista.remove(x)
+
