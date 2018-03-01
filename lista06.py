@@ -1,17 +1,13 @@
 #coding: utf-8
-npalabra= int(input("cuántas palabras tiene la lista: "))
-
-if npalabra < 1:
-    print("¡Imposible!")
+numero=input("introduce cuantas palabras tendra la lista")
+if numero < 1:
+	print "es imposible"
 else:
-    lista = []
-    for i in range(npalabra):
-        print("Dime la palabra", str(i + 1) + ": ")
-        palabra = input()
-        lista += [palabra]
-    print("La lista es:", lista)
+	lista=[]
+	for i in range(numero):
+		x=raw_input("introduce una palabra:")
+		lista.append(x)
+    	for i in lista:
+        	lista.reverse()
+print("La lista inversa es:",lista)
 
-    inversa = []
-    for i in lista:
-        inversa = [i] + inversa
-    print("La lista inversa es:", inversa)
